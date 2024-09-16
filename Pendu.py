@@ -11,6 +11,7 @@ word = randomaccesword()
 print(word)
 
 guessword =  random.choice(wordlist)
-maskedword = " _ " *
+maskedword = ["_" for _ in guessword]
 len (guessword)
-print(guessword)
+print(" ".join(maskedword))
+
