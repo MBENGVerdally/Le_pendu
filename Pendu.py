@@ -41,3 +41,5 @@ if "_" not in maskedword:
     print("Félicitations ! Vous avez gagné !")
 else:
     print(f"Désolé, vous avez perdu. Le mot était '{word}'.")
+
+    
